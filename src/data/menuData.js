@@ -1,0 +1,148 @@
+const menuData = [
+  {
+    id: 1,
+    name: "Margherita Pizza",
+    description: "Classic Italian pizza with mozzarella cheese and basil leaves.",
+    price: 249,
+    category: "Pizza",
+    rating: 4.8,
+    prepTime: "20 mins",
+    isVeg: true,
+    image:
+      "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=1200&auto=format&fit=crop",
+  },
+  {
+    id: 2,
+    name: "Farmhouse Pizza",
+    description: "Loaded with onion, capsicum, tomato, and mushrooms.",
+    price: 329,
+    category: "Pizza",
+    rating: 4.7,
+    prepTime: "25 mins",
+    isVeg: true,
+    image:
+      "https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=1200&auto=format&fit=crop",
+  },
+  {
+    id: 3,
+    name: "Cheese Burger",
+    description: "Juicy grilled patty with cheddar cheese and lettuce.",
+    price: 189,
+    category: "Burger",
+    rating: 4.6,
+    prepTime: "15 mins",
+    isVeg: false,
+    image:
+      "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=1200&auto=format&fit=crop",
+  },
+  {
+    id: 4,
+    name: "Veg Supreme Burger",
+    description: "Crispy veg patty with fresh veggies and special sauce.",
+    price: 169,
+    category: "Burger",
+    rating: 4.5,
+    prepTime: "14 mins",
+    isVeg: true,
+    image:
+      "https://images.unsplash.com/photo-1550547660-d9450f859349?q=80&w=1200&auto=format&fit=crop",
+  },
+  {
+    id: 5,
+    name: "White Sauce Pasta",
+    description: "Creamy pasta with herbs, parmesan, and garlic.",
+    price: 219,
+    category: "Pasta",
+    rating: 4.7,
+    prepTime: "18 mins",
+    isVeg: true,
+    image:
+      "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?q=80&w=1200&auto=format&fit=crop",
+  },
+  {
+    id: 6,
+    name: "Red Sauce Pasta",
+    description: "Tangy tomato sauce pasta with olives and herbs.",
+    price: 209,
+    category: "Pasta",
+    rating: 4.4,
+    prepTime: "17 mins",
+    isVeg: true,
+    image:
+      "https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb?q=80&w=1200&auto=format&fit=crop",
+  },
+  {
+    id: 7,
+    name: "Cold Coffee",
+    description: "Chilled coffee blended with milk and ice cream.",
+    price: 129,
+    category: "Drinks",
+    rating: 4.5,
+    prepTime: "5 mins",
+    isVeg: true,
+    image:
+      "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?q=80&w=1200&auto=format&fit=crop",
+  },
+  {
+    id: 8,
+    name: "Mojito",
+    description: "Refreshing mint and lemon cooler served chilled.",
+    price: 119,
+    category: "Drinks",
+    rating: 4.6,
+    prepTime: "4 mins",
+    isVeg: true,
+    image:
+      "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?q=80&w=1200&auto=format&fit=crop",
+  },
+  {
+    id: 9,
+    name: "Chocolate Shake",
+    description: "Rich chocolate milkshake topped with whipped cream.",
+    price: 149,
+    category: "Drinks",
+    rating: 4.8,
+    prepTime: "6 mins",
+    isVeg: true,
+    image:
+      "https://images.unsplash.com/photo-1572490122747-3968b75cc699?q=80&w=1200&auto=format&fit=crop",
+  },
+  {
+    id: 10,
+    name: "Paneer Tikka Pizza",
+    description: "Indian-style pizza with spicy paneer tikka toppings.",
+    price: 359,
+    category: "Pizza",
+    rating: 4.9,
+    prepTime: "26 mins",
+    isVeg: true,
+    image:
+      "https://images.unsplash.com/photo-1594007654729-407eedc4be65?q=80&w=1200&auto=format&fit=crop",
+  },
+  {
+    id: 11,
+    name: "Double Patty Burger",
+    description: "Loaded double patty burger with cheese and sauce.",
+    price: 249,
+    category: "Burger",
+    rating: 4.7,
+    prepTime: "16 mins",
+    isVeg: false,
+    image:
+      "https://images.unsplash.com/photo-1550317138-10000687a72b?q=80&w=1200&auto=format&fit=crop",
+  },
+  {
+    id: 12,
+    name: "Alfredo Pasta",
+    description: "Creamy Alfredo pasta with mushrooms and herbs.",
+    price: 239,
+    category: "Pasta",
+    rating: 4.8,
+    prepTime: "19 mins",
+    isVeg: true,
+    image:
+      "https://images.unsplash.com/photo-1645112411341-6c4fd023714a?q=80&w=1200&auto=format&fit=crop",
+  },
+];
+
+export default menuData;

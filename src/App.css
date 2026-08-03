@@ -1,0 +1,6 @@
+/* App.css - intentionally minimal.
+   Tailwind CSS handles almost all styling in components. */
+
+#root {
+  min-height: 100vh;
+}
